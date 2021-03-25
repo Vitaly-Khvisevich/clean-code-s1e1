@@ -39,12 +39,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li,
-h3 {
+h3,
+li {
   list-style: none;
 }
-input,
-button {
+button,
+input {
   outline: none;
 }
 button {
