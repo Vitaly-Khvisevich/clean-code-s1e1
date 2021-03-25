@@ -20,7 +20,7 @@ body {
 @media (max-width:768px) {
   .info { text-align: center;}
 }
-.centered-main-page-element {
+.add-task {
   display: block;
   width: 500px;
   margin: 0 auto 0;
