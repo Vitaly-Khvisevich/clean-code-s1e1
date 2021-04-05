@@ -7,48 +7,48 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="image" src="./eisenhower-matrix.jpg">
-      <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img class="header__mage" src="./eisenhower-matrix.jpg" alt="Eisenhower's Matrix">
+      <a class="header__more_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
-    <main>
+    <main class="main">
       <div class="wrapper">
         <section id="add-item">
-          <label for="new-task" class="title title-add">add item</label>
+          <label for="new-task" class="main__title add-item__title">add item</label>
           <article class="task-wrapper">
-            <input id="new-task" class="task task-add" type="text">
-            <button class="btn btn_add">add</button>
+            <input id="new-task" class="task task-wrapper__add" type="text">
+            <button class="btn task-wrapper__button">add</button>
           </article>
         </section>
-        <h3 class="title">todo</h3>
+        <h3 class="main__title">todo</h3>
         <ul class="list" id="incomplete-tasks">
           <li class="item">
-            <input class="checkbox" type="checkbox">
-            <label class="task task-label">pay bills</label>
-            <input type="text" class="task task-input">
-            <button class="btn edit">edit</button>
-            <button class="btn delete">
-              <img class="image" src="./remove.svg">
+            <input class="item__checkbox" type="checkbox">
+            <label class="task item__label">pay bills</label>
+            <input type="text" class="task item__input">
+            <button class="btn item__button_edit">edit</button>
+            <button class="btn item__button_delete">
+              <img class="item__button_image" src="./remove.svg" alt="">
             </button>
           </li>
           <li class="item edit-mode">
-            <input class="checkbox" type="checkbox">
-            <label class="task task-label">go shopping</label>
-            <input type="text" value="go shopping" class="task task-input">
-            <button class="btn edit">save</button>
-            <button class="btn delete">
-              <img class="image" src="./remove.svg">
+            <input class="item__checkbox" type="checkbox">
+            <label class="task item__label">go shopping</label>
+            <input type="text" value="go shopping" class="task item__input">
+            <button class="btn item__button_edit">save</button>
+            <button class="btn item__button_delete">
+              <img class="item__button_image" src="./remove.svg" alt="">
             </button>
           </li>
         </ul>
-        <h3 class="title">completed</h3>
+        <h3 class="main__title">completed</h3>
         <ul class="list" id="completed-tasks">
           <li class="item">
-            <input class="checkbox" type="checkbox" checked>
-            <label class="task task-label">See the Doctor</label>
-            <input type="text" class="task task-input">
-            <button class="btn edit">edit</button>
-            <button class="btn delete">
-              <img class="image" src="./remove.svg">
+            <input class="item__checkbox" type="checkbox" checked>
+            <label class="task item__label">See the Doctor</label>
+            <input type="text" class="task item__input">
+            <button class="btn item__button_edit">edit</button>
+            <button class="btn item__button_delete">
+              <img class="item__button_image" src="./remove.svg" alt="">
             </button>
           </li>
         </ul>
@@ -57,12 +57,5 @@
     <script src="app.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
 
      
